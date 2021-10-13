@@ -1,0 +1,31 @@
+.home-container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    max-width: 50%;
+    background-color: ghostwhite;
+    border: 2px solid gray;
+}
+
+.home-title {
+    margin: 65px 0;
+    font-size: 22px;
+}
+
+.home-buttons-container {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border: 3px solid darkcyan;
+    color: white;
+    background-color: darkcyan;
+    min-width: 116px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
